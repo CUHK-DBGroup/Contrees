@@ -1,0 +1,40 @@
+# Compiled Objects
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static Libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+main
+build/
+
+# IDE Configs
+.project
+.cproject
+.settings/
+.vscode/
+
+# Local Outputs
+*.result
+*.log
+*.data
+*.output
+output/
