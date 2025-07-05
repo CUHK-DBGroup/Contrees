@@ -36,8 +36,8 @@ void exit_with_usage(const char *prog_name) {
   std::cerr << "Usage: ./" << prog_name << " "
             << "<dataset> <scheduler> <structure> "
             << "[-c <num_clients>] [-p <num_pipes>] [-w <num_workers>]\n"
-            << "Structures: betree, btree, aert, art\n"
-            << "Schedulers: inplace, seqcow, concow"
+            << "Schedulers: inplace, seqcow, concow\n"
+            << "Structures: betree, btree, aert, art"
             << std::endl;
   exit(EXIT_FAILURE);
 }
